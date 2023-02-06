@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ati.ControllerBed">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="734.0">
+         <children>
+            <Label layoutX="14.0" layoutY="21.0" prefHeight="17.0" prefWidth="84.0" text="Paturi ocupate:" />
+            <Label layoutX="14.0" layoutY="38.0" prefHeight="17.0" prefWidth="90.0" text="Paturi libere TIC:" />
+            <Label layoutX="14.0" layoutY="55.0" text="Paturi libere TIM:" />
+            <Label layoutX="14.0" layoutY="72.0" text="Paturi liberer TIIP:" />
+            <Label fx:id="ocupatLabel" layoutX="108.0" layoutY="21.0" />
+            <Label fx:id="ticLabel" layoutX="108.0" layoutY="38.0" />
+            <Label fx:id="timLabel" layoutX="108.0" layoutY="55.0" />
+            <Label fx:id="tiipLabel" layoutX="108.0" layoutY="72.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
